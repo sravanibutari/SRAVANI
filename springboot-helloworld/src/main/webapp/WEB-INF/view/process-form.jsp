@@ -8,6 +8,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-Student Name:${message}
+Student First Name:${student.fName}
 </body>
 </html>

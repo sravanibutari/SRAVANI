@@ -8,6 +8,8 @@
 </head>
 <body>
 <h2>Spring MVC-Home Page</h2>
-<a href="${pageContext.request.contextPath}/student/showForm">Show Form</a>
+<a href="${pageContext.request.contextPath}/student/showForm" class="btn btn-primary stretched-link">Add Student</a>
+    <hr>
+    
 </body>
 </html>
