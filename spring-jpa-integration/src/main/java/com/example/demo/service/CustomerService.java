@@ -8,6 +8,6 @@ import com.example.demo.entity.Customer;
 public interface CustomerService {
 public List<Customer> getAllCustomers();
 public  Optional<Customer> getCustomerById(Integer id);
-
+public Customer createCustomer(Customer customer);
 }
 

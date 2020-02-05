@@ -46,5 +46,11 @@ public void setlName(String lName) {
 	this.lName = lName;
 }
 
+public Customer(String fname, String lName) {
+	super();
+	Fname = fname;
+	this.lName = lName;
+}
+
 
 }

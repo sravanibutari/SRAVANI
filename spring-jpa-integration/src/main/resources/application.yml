@@ -1,6 +1,8 @@
 spring:
   application:
     name: spring-jpa
-  h2:    console:      enabled: true
-      settings:        web-allow-others: true
-        trace: true  
+  datasource:    url: jdbc:mysql://localhost:3306/db
+    username: root
+    password: welcome
+  jpa:    hibernate:      ddl-auto: create
+    show-sql: true  

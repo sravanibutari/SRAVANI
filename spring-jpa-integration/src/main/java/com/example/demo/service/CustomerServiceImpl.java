@@ -28,12 +28,16 @@ public class CustomerServiceImpl implements CustomerService {
 		
 		return customerDAO.findAll();
 	}
-
+	
 	@Override
 	@Transactional
 	public Optional<Customer> getCustomerById(Integer id) {
 		Optional<Customer> customer=customerDAO.findById(id);
 		return customer;
 	}
-
+@Override
+public Customer createCustomer(Customer customer)
+{
+	return customerDAO.save(customer);
+}
 }
