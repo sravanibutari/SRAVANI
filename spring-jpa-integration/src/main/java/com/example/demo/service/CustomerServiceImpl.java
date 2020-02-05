@@ -39,5 +39,38 @@ public class CustomerServiceImpl implements CustomerService {
 public Customer createCustomer(Customer customer)
 {
 	return customerDAO.save(customer);
+	
 }
+
+@Override
+public void deleteCustomerById(Integer id) {
+	customerDAO.deleteById(id);
+	
+}
+
+@Override
+public void deleteAll() {
+	customerDAO.deleteAll();
+	
+}
+@Override
+public List<Customer> findByFName(String fName) {
+	// TODO Auto-generated method stub
+	return customerDAO.findByFName(fName);
+}
+
+@Override
+public List<Customer> findByLName(String lName) {
+	// TODO Auto-generated method stub
+	return customerDAO.findByLName(lName);
+}
+
+
+
+@Override
+public List<Customer> findByFNameAndLName(String fName, String lName) {
+	// TODO Auto-generated method stub
+	return customerDAO.findByFNameAndLName(fName, lName);
+}
+
 }
