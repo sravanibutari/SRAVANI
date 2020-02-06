@@ -11,15 +11,17 @@ import com.example.demo.model.Item;
 import com.example.demo.repo.ItemRepository;
 
 
+
 public class ItemServiceImpl implements ItemService {
 private ItemRepository itemRepository;
 
 @Autowired
 
 public ItemServiceImpl(ItemRepository itemRepository) {
-super();
-this.itemRepository = itemRepository;
+	super();
+	this.itemRepository = itemRepository;
 }
+
 
 @Override
 @Transactional
@@ -29,7 +31,6 @@ this.itemRepository = itemRepository;
 	}
 
 	
-
 	@Override
 	@Transactional
 	public Item createItem(Item item) {
@@ -37,6 +38,7 @@ this.itemRepository = itemRepository;
 		return itemRepository.insert(item);
 	}
 
+	
 	
 	
 	

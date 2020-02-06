@@ -9,6 +9,6 @@ import com.example.demo.model.Item;
 public interface ItemService {
 	public List<Item> getAllItem();
 	public Item createItem(Item item);
-	
+
 
 }

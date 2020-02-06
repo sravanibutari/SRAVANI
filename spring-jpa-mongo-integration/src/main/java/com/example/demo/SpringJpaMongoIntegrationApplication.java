@@ -5,7 +5,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.example.demo.model.Item;
+
 import com.example.demo.repo.ItemRepository;
 
 @SpringBootApplication
@@ -16,7 +16,7 @@ public class SpringJpaMongoIntegrationApplication implements CommandLineRunner {
 	@Autowired
     public SpringJpaMongoIntegrationApplication(ItemRepository itemRepository) {
 	super();
-	this.itemRepository = itemRepository;
+	this.setItemRepository(itemRepository);
 }
 	public static void main(String[] args) {
 		SpringApplication.run(SpringJpaMongoIntegrationApplication.class, args);
@@ -30,6 +30,12 @@ public class SpringJpaMongoIntegrationApplication implements CommandLineRunner {
 		itemRepository.save(new Item("computer",2000));
 		itemRepository.save(new Item("Mobile",200));
 		*/
+	}
+	public ItemRepository getItemRepository() {
+		return itemRepository;
+	}
+	public void setItemRepository(ItemRepository itemRepository) {
+		this.itemRepository = itemRepository;
 	}
 
 }
