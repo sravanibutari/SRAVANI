@@ -1,0 +1,37 @@
+[
+    {
+        "empId": 101,
+        "name": "sravani",
+        "gender": "female",
+        "salary": 40000,
+        "dateOfBirth": "12 / 12 / 1998"
+    },
+    {
+        "empId": 102,
+        "name": "Ben",
+        "gender": "male",
+        "salary": 50000,
+        "dateOfBirth": "10 / 12 / 2000"
+    },
+    {
+        "empId": 103,
+        "name": "Gwen",
+        "gender": "female",
+        "salary": 45000,
+        "dateOfBirth": "10 / 11 / 2002"
+    },
+    {
+        "empId": 104,
+        "name": "Max",
+        "gender": "male",
+        "salary": 60000,
+        "dateOfBirth": "12 / 11 / 2004"
+    },
+    {
+        "empId": 105,
+        "name": "FourArms",
+        "gender": "male",
+        "salary": 30000,
+        "dateOfBirth": "11 / 11 / 2006"
+    }
+]
