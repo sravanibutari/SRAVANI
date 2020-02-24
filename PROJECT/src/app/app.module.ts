@@ -15,6 +15,8 @@ import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import {AppRoutingModule} from './app-routing.module';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
+import { Login1Component } from './components/login1/login1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,12 +29,15 @@ import { PageNotFoundComponent } from './components/page-not-found/page-not-foun
     LoginComponent,
     RegisterComponent,
     PageNotFoundComponent,
+    Login1Component,
    
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

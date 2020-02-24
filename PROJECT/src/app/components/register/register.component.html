@@ -1,1 +1,59 @@
-<p>register works!</p>
+
+<div class="container">
+    
+    <div class="p-3 mb-2 bg-info text-white">
+    
+        <div class="text-center">
+        <img src="../../../assets/img/logo1.png"  width=100 height=100>
+    <h1  style="color:navy" >REGISTRATION FORM</h1><br>
+</div>
+    <form style="color:black" #userForm="ngForm" (ngSubmit)="onFormModel()">
+        
+        <div class="form-group">
+            <label for=" " style="color:purple">username</label>
+            <input #userName="ngModel" [(ngModel)]="userModel.username" name="username" [class.is-invalid]="userName.invalid && userName.touched" type="text" class="form-control" required>
+        <small class="text-danger" [class.d-none]="userName.valid || userName.untouched">Required Field</small>
+        </div>
+{{userName.touched}}
+        <div class="form-group">
+            <label for=" " style="color:purple">email</label>
+            <input [(ngModel)]="userModel.email" name="email" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for=" " style="color:purple">Phone</label>
+            <input [(ngModel)]="userModel.phone" name="phone" type="tel" #phone="ngModel" class="form-control" required  [class.is-invalid]="phone.invalid && phone.touched" pattern="^\d{10}$">
+            
+       <div *ngIf="phone.errors && (phone.valid || phone.touched)">
+           <small *ngIf="phone.errors.required" class="text-danger">Required Field</small>
+           <small *ngIf="phone.errors.pattern" class="text-danger">Invalid Phone Number </small>
+       </div>
+        </div>
+        <div class="form-group" >
+            <label for=" " style="color:purple" >Category</label>
+            <select [(ngModel)]="userModel.category" name="category"  class="form-control"> 
+                <option value="">....select....</option>
+                <option  *ngFor="let Category of categories" >{{Category}}</option>
+                </select>
+        </div>
+        <div class="form-group" style="color:purple" >
+            Gender
+        </div>
+            <div class="form-check">
+            <input class="form-check-input" value="male" [(ngModel)]="userModel.gender" name="gender" type="radio">
+            <label class="form-check-label" >Male</label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input"  value="female" [(ngModel)]="userModel.gender" name="gender" type="radio">
+            <label class="form-check-label" >Female</label>
+        </div>
+     <br>
+        <div class="form-group" style="color:purple">
+            <input [(ngModel)]="userModel.subscribe" name="subscribe" type="checkbox">subscribe
+        </div>
+        
+<input type="submit" [disabled]="!userForm.valid" value="register" class="btn btn-primary">
+            
+    </form>
+
+</div>
+</div>

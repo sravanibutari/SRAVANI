@@ -1,1 +1,18 @@
-<p>login works!</p>
+<div class="container">
+    <h1 style=color:blueviolet >Login</h1>
+    <div class="row">
+    
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit(userForm.value)">
+    
+   <div class="form-group">
+            <label for="">Email</label>
+            <input type="text" class="form-control" formControlName="email">
+        </div>
+        <div class="form-group">
+            <label for="">Password</label>
+            <input type="text" class="form-control" formControlName="password">
+        </div>
+        <input type="submit" value="login" class="btn btn-primary">
+    </form>
+</div>
+</div>
