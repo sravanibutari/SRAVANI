@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="spring_discovery"/>
+<aop-project name="spring-eureka-gallery"/>
+<aop-project name="recommendation-service"/>
+<aop-project name="movie-service"/>
+<aop-project name="spring-eureka-img"/>
+<aop-project name="spring-eureka-zuul"/>
+</aop-reference-model>

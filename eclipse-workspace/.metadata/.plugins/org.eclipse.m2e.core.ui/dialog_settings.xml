@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Alchemy\git\repository\loginconfig\src\main\java\comm\example\spring\controller\Student.java"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\league\target\pom.xml"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\cdtype"/>
+			<item value="C:\Users\Alchemy\git\repository\mvcdemo1\src\main\java\comm\example\spring\controller\StudentController.java"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\mvcdemo"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\crm1\src\main\java\crm\mapper\Customermapper.java"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\crm"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\servletdemo"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\html1\target"/>
+			<item value="C:\Users\Alchemy\eclipse-workspace\demo1\src\main\webapp\WEB-INF"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="projectNameCombo">
+			<item value="mygiftcard"/>
+		</list>
+		<list key="packageCombo">
+			<item value="com.giftcard"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.giftcard"/>
+			<item value="crm.crm2"/>
+			<item value="league.prgm"/>
+			<item value="league.league"/>
+			<item value="spring.cdtype"/>
+			<item value="spring.mvcdemo1"/>
+			<item value="html.mvcdemo"/>
+			<item value="html.crm1"/>
+			<item value="html.crm"/>
+			<item value="html.productdemo"/>
+			<item value="html.servlet"/>
+			<item value="html.abc1"/>
+			<item value="html.servletdemo"/>
+			<item value="html.html1"/>
+			<item value="html.demo1"/>
+		</list>
+		<list key="groupId">
+			<item value="org.jboss.tools.example.html5"/>
+			<item value="crm"/>
+			<item value="league"/>
+			<item value="spring"/>
+			<item value="html"/>
+		</list>
+		<list key="artifactId">
+			<item value="mygiftcard"/>
+			<item value="crm2"/>
+			<item value="prgm"/>
+			<item value="league"/>
+			<item value="cdtype"/>
+			<item value="mvcdemo1"/>
+			<item value="mvcdemo"/>
+			<item value="crm1"/>
+			<item value="crm"/>
+			<item value="productdemo"/>
+			<item value="servlet"/>
+			<item value="abc1"/>
+			<item value="servletdemo"/>
+			<item value="html1"/>
+			<item value="demo1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.jboss.tools.project.examples.stacksrequirements">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\Alchemy\eclipse-workspace\crm\src\main\webapp\Index.html"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="json2"/>
+			<item value="json1"/>
+			<item value="simplejsonconverterdemo"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="json2"/>
+			<item value="json1"/>
+			<item value="simplejsonconverterdemo"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

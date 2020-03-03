@@ -1,0 +1,5 @@
+package com.eureka.demo.controllers;
+
+public class HomeController {
+
+}

@@ -1,0 +1,18 @@
+package com.example.demo;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+@RequestMapping("/")
+public class ConverterController {
+	
+	
+	 
+	public int getUSD() {
+	int usd=69*(new Currency(double amount));
+	}
+	
+	
+
+}

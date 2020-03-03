@@ -1,0 +1,50 @@
+package com.example.demo.dao;
+
+import org.springframework.dao.DataAccessException;
+import org.springframework.dao.support.PersistenceExceptionTranslator;
+import org.springframework.data.mongodb.MongoDbFactory;
+
+import com.mongodb.ClientSessionOptions;
+import com.mongodb.DB;
+import com.mongodb.client.ClientSession;
+import com.mongodb.client.MongoDatabase;
+
+public class UserDAO implements MongoDbFactory {
+
+	@Override
+	public MongoDatabase getDb() throws DataAccessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MongoDatabase getDb(String dbName) throws DataAccessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public PersistenceExceptionTranslator getExceptionTranslator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public DB getLegacyDb() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public ClientSession getSession(ClientSessionOptions options) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MongoDbFactory withSession(ClientSession session) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

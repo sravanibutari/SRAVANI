@@ -1,0 +1,14 @@
+package com.example.demo;
+
+
+
+import lombok.Data;
+
+
+public class Groups {
+
+	private Integer id;
+	private String name;
+	
+	
+}

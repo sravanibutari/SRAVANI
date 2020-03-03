@@ -1,0 +1,11 @@
+#Fri Feb 28 04:17:06 PST 2020
+vl=How many times the 'Finish' button pressed during the day
+l=Wizard class name
+ct=jbt
+d=1582892226927
+c=0
+cmp=usage
+a=finishWizard
+cl=org.eclipse.egit.ui.internal.sharing.SharingWizard
+v=2.2.202
+s=2
