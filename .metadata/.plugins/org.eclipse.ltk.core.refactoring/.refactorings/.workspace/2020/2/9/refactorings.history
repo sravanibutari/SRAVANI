@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Movie-Service&apos; to &apos;movie-service&apos;" description="Rename resource &apos;Movie-Service&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Movie-Service" name="movie-service" stamp="1582874410311" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;spring-eureka-image&apos;" deleteContents="false" description="Delete resource &apos;spring-eureka-image&apos;" element1="/spring-eureka-image" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1582885897275"/>
-</session>

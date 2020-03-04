@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\Alchemy\\eclipse-cloudservice\\movie-service\\.git;
-GitRepositoriesView.GitDirectories.relative=movie-service\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\Alchemy\\git\\repository4\\.git;C\:\\Users\\Alchemy\\eclipse-cloudservice\\movie-service\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Users\\Alchemy\\git\\repository4\\.git;movie-service\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

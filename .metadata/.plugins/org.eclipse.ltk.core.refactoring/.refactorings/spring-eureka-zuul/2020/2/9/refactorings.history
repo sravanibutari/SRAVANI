@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;spring-eureka-zuul&apos;&#x0D;&#x0A;- Original project: &apos;spring-eureka-zuul&apos;&#x0D;&#x0A;- Original element: &apos;com.eureka.zuul.tests.SpringZuulApplicationTests.java&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.eureka.zuul.tests{SpringZuulApplicationTests.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1582885673958" subPackages="false" version="1.0"/>
-</session>

@@ -2,10 +2,12 @@
 <section name="Workbench">
 	<list key="CommitDialog.authorValues">
 		<item value="sravanibutari &lt;butarisravani@gmail.com&gt;"/>
+		<item value="Sravani@5 &lt;sravanibutari@gmail.com&gt;"/>
 		<item value="Alchemy &lt;Alchemy@192.168.1.206&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
 		<item value="sravanibutari &lt;butarisravani@gmail.com&gt;"/>
+		<item value="Sravani@5 &lt;sravanibutari@gmail.com&gt;"/>
 		<item value="Alchemy &lt;Alchemy@192.168.1.206&gt;"/>
 	</list>
 	<list key="EGit.KnownHosts">
