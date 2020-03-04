@@ -1,1 +1,0 @@
-package comm.mycompany.mycompany1.project;

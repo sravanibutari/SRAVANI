@@ -1,7 +1,0 @@
-package com.example.demo.model;
-
-public class User {
- public String uId;
- public String userName;
- public String email;
-}

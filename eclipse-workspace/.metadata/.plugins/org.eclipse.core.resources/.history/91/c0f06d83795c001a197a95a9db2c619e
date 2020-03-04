@@ -1,9 +1,0 @@
-server:
-  port: 8030
-spring:
-  application: 
-   name: user-service
-  cloud
-   
-  
-    

@@ -1,3 +1,0 @@
-server:
-  port: 8070
-spring:  boot:    admin:      client:        url: http://localhost:7000        

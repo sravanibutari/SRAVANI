@@ -1,7 +1,0 @@
- eureka:
-   client:
-    register-with-eureka: false
-    serviceUrl: 
-      deafultzone: http://localhost:8761/eureka
-server:
-   port: 7000
